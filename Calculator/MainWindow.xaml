@@ -78,20 +78,20 @@
                     <Button Grid.Row="3" Grid.Column="3" Content="x²"/>
                     <Button Grid.Row="3" Grid.Column="5" Content="&#8730;x"/>
                     <Button Grid.Row="3" Grid.Column="7" Content="÷"/>
-                    <Button Grid.Row="5" Grid.Column="1" Content="7"/>
-                    <Button Grid.Row="5" Grid.Column="3" Content="8"/>
-                    <Button Grid.Row="5" Grid.Column="5" Content="9"/>
+                    <Button Grid.Row="5" Grid.Column="1" Content="7" x:Name="btn7" Click="btnKeyPad_Click" />
+                    <Button Grid.Row="5" Grid.Column="3" Content="8" x:Name="btn8" Click="btnKeyPad_Click"/>
+                    <Button Grid.Row="5" Grid.Column="5" Content="9" x:Name="btn9" Click="btnKeyPad_Click"/>
                     <Button Grid.Row="5" Grid.Column="7" Content="X"/>
-                    <Button Grid.Row="7" Grid.Column="1" Content="4"/>
-                    <Button Grid.Row="7" Grid.Column="3" Content="5"/>
-                    <Button Grid.Row="7" Grid.Column="5" Content="6"/>
+                    <Button Grid.Row="7" Grid.Column="1" Content="4" x:Name="btn4" Click="btnKeyPad_Click"/>
+                    <Button Grid.Row="7" Grid.Column="3" Content="5" x:Name="btn5" Click="btnKeyPad_Click"/>
+                    <Button Grid.Row="7" Grid.Column="5" Content="6" x:Name="btn6" Click="btnKeyPad_Click"/>
                     <Button Grid.Row="7" Grid.Column="7" Content="-"/>
-                    <Button Grid.Row="9" Grid.Column="1" Content="1" />
-                    <Button Grid.Row="9" Grid.Column="3" Content="2"/>
-                    <Button Grid.Row="9" Grid.Column="5" Content="3"/>
+                    <Button Grid.Row="9" Grid.Column="1" Content="1" x:Name="btn1" Click="btnKeyPad_Click"/>
+                    <Button Grid.Row="9" Grid.Column="3" Content="2" x:Name="btn2" Click="btnKeyPad_Click"/>
+                    <Button Grid.Row="9" Grid.Column="5" Content="3" x:Name="btn3" Click="btnKeyPad_Click"/>
                     <Button Grid.Row="9" Grid.Column="7" Content="+" Command="{Binding PlusCommand}"/>
                     <Button Grid.Row="11" Grid.Column="1" Content="+/-"/>
-                    <Button Grid.Row="11" Grid.Column="3" Content="0"/>
+                    <Button Grid.Row="11" Grid.Column="3" Content="0" x:Name="btn0"/>
                     <Button Grid.Row="11" Grid.Column="5" Content="."/>
                     <Button Grid.Row="11" Grid.Column="7" Content="="/>
                     
